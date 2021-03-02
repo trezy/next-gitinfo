@@ -5,7 +5,7 @@ module.exports = () => {
 	const Router = useRouter()
 
 	if (process.env.gitInfo) {
-		return process.env.gitInfo[Router.asPath]
+		return process.env.gitInfo.pages[Router.asPath]
 	}
 
 	return {}
