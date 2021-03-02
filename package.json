@@ -5,10 +5,16 @@
   "repository": "git@github.com:trezy/next-git-wrapper.git",
   "author": "Trezy <tre@trezy.com>",
   "license": "BSD-3-Clause",
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
   "dependencies": {
     "klaw-sync": "^6.0.0"
   },
   "peerDependencies": {
     "next": "^10.0.7"
+  },
+  "devDependencies": {
+    "semantic-release": "^17.4.0"
   }
 }
