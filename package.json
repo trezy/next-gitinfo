@@ -1,8 +1,8 @@
 {
-  "name": "@trezy/next-gitinfo",
+  "name": "next-gitinfo",
   "version": "1.0.0",
   "main": "lib/withGitInfo.js",
-  "repository": "git@github.com:trezy/next-git-wrapper.git",
+  "repository": "git@github.com:trezy/next-gitinfo.git",
   "author": "Trezy <tre@trezy.com>",
   "license": "BSD-3-Clause",
   "scripts": {
