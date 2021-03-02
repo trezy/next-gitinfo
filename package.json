@@ -1,0 +1,14 @@
+{
+  "name": "@trezy/next-gitinfo",
+  "version": "1.0.0",
+  "main": "lib/withGitInfo.js",
+  "repository": "git@github.com:trezy/next-git-wrapper.git",
+  "author": "Trezy <tre@trezy.com>",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "klaw-sync": "^6.0.0"
+  },
+  "peerDependencies": {
+    "next": "^10.0.7"
+  }
+}

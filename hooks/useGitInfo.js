@@ -1,0 +1,12 @@
+// Module imports
+const { useRouter } = require('next/router')
+
+module.exports = () => {
+	const Router = useRouter()
+
+	if (process.env.gitInfo) {
+		return process.env.gitInfo[Router.asPath]
+	}
+
+	return {}
+}
