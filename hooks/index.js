@@ -1,3 +1,3 @@
 module.exports = {
-	useGitInfo: require('./useGitInfo'),
+	useCurrentPageGitInfo: require('./useCurrentPageGitInfo'),
 }
